@@ -10,20 +10,31 @@ The Strategic Highway Research Program Naturalistic Driving Study (SHRP2-NDS) is
 
 Figure 1 shows the data flow diagram for the accelerations reference. Timeseries data from the SHRP2 NDS was first augmented with roadway attributes using HERE.com digital map data through in house map matching algorithms. This augmented timeseries data was then analyzed using the acceleration summarization algorithm illustrated in Figure 2.
 
+![Accelerations_Reference_Data_Flow](https://user-images.githubusercontent.com/35648460/232153898-3fd2abc9-bf8f-4cd8-a9fb-6507c9a2768e.svg)
+
+<!--
 </br>
 <figure>
 <img src="Accelerations_Reference_Data_Flow.svg" alt="drawing" class="center" style="display: block;  margin-left: auto;  margin-right: auto;  width: 80%;" />
 <figcaption>Figure 1 - Data flow diagram for the accelerations reference.</figcaption>
 </figure>
 </br>
+-->
 
 The acceleration summarization algorithm extracts, summarizes, and logs each acceleration event into the acceleration summary table. This is an intermediate table between the timeseries between the raw timeseries data and the final driver profiles.
+
+![Breaking_Speed_and_Accel_WO_OUTLINE](https://user-images.githubusercontent.com/35648460/232154478-b075f1b4-b78e-42a6-8ff5-4e04b72a0aa1.svg)
+
+
+<!--
 </br>
 <figure>
 <img src="Breaking_Speed_and_Accel_WO_OUTLINE.svg" alt="drawing" class="center" style="display: block;  margin-left: auto;  margin-right: auto;  width: 100%;" />
 <figcaption>Figure 2 - Extracting accelerations and decelerations periods from IMU and speed timeseries data.</figcaption>
 </figure>
 </br>
+-->
+
 The driver profile generation process aggregates all the acceleration events and creates an individual profile for each driver with the measures for percentiles, rates, and strongest acceleration events in unit distance. These acceleration profiles form the back end dataset of this interactive analysis tool. The selections on the tool are processed to subset the dataset and generate the appropriate visualizations.
 
 
