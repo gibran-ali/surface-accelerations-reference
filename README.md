@@ -1,5 +1,28 @@
 # The Surface Accelerations Reference - A Large-scale, Interactive Catalog of Passenger Vehicle Accelerations
 
+## Accompanying Paper
+The data and methods used to generate this dataset are described in a paper published in the IEEE Transactions on Intelligent Transportation Systems. The final published version of the paper can be access [here](https://ieeexplore.ieee.org/document/10108532) while the final accepted version can be found in this repository.
+
+## Citation
+
+If you use this dataset, please use the following citation:
+
+G. Ali, S. McLaughlin and M. Ahmadian, "The Surface Accelerations Reference — A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3267844.
+
+```
+@ARTICLE{ali_surface_2023,
+  author={Ali, Gibran and McLaughlin, Shane and Ahmadian, Mehdi},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={The Surface Accelerations Reference— A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-10},
+  doi={10.1109/TITS.2023.3267844}}
+  
+```
+
+
 ## Introduction
 
 The Surface Accelerations Reference is a catalog of all longitudinal and lateral accelerations experienced by SHRP2-NDS participants.
