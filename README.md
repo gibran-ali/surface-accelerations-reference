@@ -1,4 +1,4 @@
-# The Surface Accelerations Reference - A Large-scale, Interactive Catalog of Passenger Vehicle Accelerations
+# The Surface Accelerations Reference — A Large-scale, Interactive Catalog of Passenger Vehicle Accelerations
 
 ## Accompanying Paper
 The data and methods used to generate this dataset are described in a paper published in the IEEE Transactions on Intelligent Transportation Systems. The final published version of the paper can be access [here](https://ieeexplore.ieee.org/document/10108532) while the final accepted version can be found in this repository.
