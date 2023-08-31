@@ -7,17 +7,18 @@ The data and methods used to generate this dataset are described in a paper publ
 
 If you use this dataset, please use the following citation:
 
-G. Ali, S. McLaughlin and M. Ahmadian, "The Surface Accelerations Reference — A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3267844.
+G. Ali, S. McLaughlin and M. Ahmadian, "The Surface Accelerations Reference—A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations," in IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 9, pp. 9031-9040, Sept. 2023, doi: 10.1109/TITS.2023.3267844.
 
 ```
+
 @ARTICLE{ali_surface_2023,
   author={Ali, Gibran and McLaughlin, Shane and Ahmadian, Mehdi},
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={The Surface Accelerations Reference— A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations}, 
+  title={The Surface Accelerations Reference—A Large-Scale, Interactive Catalog of Passenger Vehicle Accelerations}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-10},
+  volume={24},
+  number={9},
+  pages={9031-9040},
   doi={10.1109/TITS.2023.3267844}}
   
 ```
